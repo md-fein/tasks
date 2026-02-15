@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import cats from ".//cats.JPG";
+import cats from "./cats.jpg";
 
 function App(): React.JSX.Element {
     return (
@@ -14,7 +14,17 @@ function App(): React.JSX.Element {
                 Hello World! Edit <code>src/App.tsx</code> and save. This page
                 will automatically reload.
             </p>
-            <img src={cats} alt="A picture of cats JoJo and Robin" />
+            Unordered List:
+            <ul>
+                <li>See below my kittens, JoJo and Robin</li>
+                <li>Another thing</li>
+                <li>A third item</li>
+            </ul>
+            <img
+                src={cats}
+                alt="A picture of cats JoJo and Robin"
+                style={{ width: "50%" }}
+            />
         </div>
     );
 }
