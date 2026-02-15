@@ -10,15 +10,11 @@ function App(): React.JSX.Element {
             </header>
             <header>Mikey Feinstein</header>
             <h1>Test header</h1>
-            <p>
-                Hello World! Edit <code>src/App.tsx</code> and save. This page
-                will automatically reload.
-            </p>
-            Unordered List:
-            <ul>
-                <li>See below my kittens, JoJo and Robin</li>
-                <li>Another thing</li>
-                <li>A third item</li>
+            <p>Hello World!</p>
+            <ul style={{ listStylePosition: "inside" }}>
+                <li>Kitten 1: JoJo</li>
+                <li>Kitten 2: Robin</li>
+                <li>The kittes are Calico sisters</li>
             </ul>
             <img
                 src={cats}
